@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+main .filters {
+    width: 200px;
+    padding: 30px 15px;
+    border: 2px solid var(--color-second);
+    color: var(--color-third);
+    box-shadow: 5px 10px var(--color-second);
+}
+
+main .filters h2 {
+    margin-bottom: 40px;
+}
+
+main .filters div p {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #553c26;
+}
+
+.catalog div img {
+    height: 200px;
+    width: 200px;
+}
