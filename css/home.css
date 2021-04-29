@@ -1,7 +1,7 @@
 main {
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
+    justify-content: space-evenly;
+    padding: 50px 0;
 }
 
 main .filters {
@@ -19,9 +19,4 @@ main .filters h2 {
 main .filters div p {
     margin-bottom: 10px;
     border-bottom: 2px solid #553c26;
-}
-
-.catalog div img {
-    height: 200px;
-    width: 200px;
 }
