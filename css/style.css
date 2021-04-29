@@ -7,9 +7,10 @@
     --color-fourth: #d7c5b6;
     --color-button: #39a40b;
     --color-gray: #919191;
-    --color-bg: #fcf3e8;
+    --color-bg: #fefdfc;
 }
 
 body {
     font-family: 'Anonymous Pro', monospace;
+    background-color: var(--color-bg);
 }
