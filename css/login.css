@@ -58,3 +58,7 @@ main form input {
 .login a:hover{
     color: var(--color-third);
 }
+
+@media (max-width: 950px) {
+    .vertical-line{display: none;}
+}
