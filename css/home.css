@@ -20,3 +20,41 @@ main .filters div p {
     margin-bottom: 10px;
     border-bottom: 2px solid #553c26;
 }
+
+main .catalog {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    max-width: 800px;
+
+    justify-content: center;
+
+    margin-left: 30px;
+
+}
+
+
+
+main .catalog a {
+
+    flex: 1 1 200px;
+
+    margin: 10px;
+
+    text-align: center;
+
+    color: var(--color-third);
+
+}
+
+
+
+main .catalog a img {
+
+    max-width: 100%;
+
+    border: 4px solid var(--color-gray);
+
+}
