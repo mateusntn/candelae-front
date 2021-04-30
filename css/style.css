@@ -20,3 +20,7 @@ body {
     font-weight: bold;
     color: var(--color-third);
 }
+
+input {
+    height: 28px;
+}
