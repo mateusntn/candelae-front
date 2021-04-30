@@ -44,62 +44,71 @@
         </section>
         <section class="info">
             <div class="product-name">
-                <h2>Vela Lumos</h2>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <p>(10)</p>
+                <h1>Vela Lumos</h1>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>(10)</p>
+                </div>
             </div>
-            <div>
-                <label for="selection">
-                    <strong>Tamanho:</strong>
-                </label>
-                <select id="size">
-                    <option selected disabled value=""> Selecione </option>
-                    <option>Mini </option>
-                    <option>P</option>
-                    <option>M</option>
-                    <option>G</option>
-                </select>
-                <label for="selection">
-                    <strong>Aroma:</strong>
-                </label>
-                <select id="scent">
-                    <option selected disabled value=""> Selecione </option>
-                    <option>Baunilha</option>
-                    <option>Café</option>
-                    <option>Canela</option>
-                    <option>Capim-Limão</option>
-                    <option>Citronela</option>
-                    <option>Flor de cerejeira</option>
-                    <option>Lavanda</option>
-                    <option>Patchouli</option>
-                    <option>Sândalo</option>
-                    <option>Tangerina</option>
-                    <option>Verbena</option>
-                    <option>Ylang-Ylang</option>
-                </select>
-                <h2>Quantidade:</h2>
-                <input type="number" name="quant" id="quant">
+            <div class="selectors">
+                <div class="size">
+                    <h2>Tamanho:</h2>                
+                    <select id="size">
+                        <option selected disabled value=""> Selecione </option>
+                        <option>Mini </option>
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                    </select>
+                </div>
+                <div class="scent">
+                    <h2>Aroma:</h2>                
+                    <select id="scent">
+                        <option selected disabled value=""> Selecione </option>
+                        <option>Baunilha</option>
+                        <option>Café</option>
+                        <option>Canela</option>
+                        <option>Capim-Limão</option>
+                        <option>Citronela</option>
+                        <option>Flor de cerejeira</option>
+                        <option>Lavanda</option>
+                        <option>Patchouli</option>
+                        <option>Sândalo</option>
+                        <option>Tangerina</option>
+                        <option>Verbena</option>
+                        <option>Ylang-Ylang</option>
+                    </select>
+                </div>
+                <div class="quant">
+                    <h2>Quantidade:</h2>
+                    <input type="number" name="quant" id="quant">
+                </div>
+                
             </div>
-            <div>
+            <div class="payments">
                 <h2>Formas de pagamento</h2>
-                <i class="far fa-credit-card"></i>
-                <i class="fab fa-cc-paypal"></i>                
-                <i class="fas fa-barcode"></i>
-                <i class="fas fa-qrcode"></i>
+                <div class="icons">
+                    <i class="far fa-credit-card"></i>
+                    <i class="fab fa-cc-paypal"></i>                
+                    <i class="fas fa-barcode"></i>
+                    <i class="fas fa-qrcode"></i>
+                </div>
             </div>
         </section>
         <section class="price">
             <div>
                 <h1>R$ 55,00</h1>
-                <button type="button">COMPRAR</button>
+                <button class="buy" type="button">COMPRAR</button>
                 <form>
                     <h2>Calcule o frete</h2>
-                    <input type="text" name="cep" id="cep" placeholder="CEP">
-                    <button type="submit">OK</button>
+                    <div class="cep">
+                        <input type="text" name="cep" id="cep" placeholder="CEP">
+                        <button type="submit">OK</button>
+                    </div>
                 </form>
             </div>
         </section>
