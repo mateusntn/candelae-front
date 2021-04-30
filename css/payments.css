@@ -82,6 +82,62 @@ h6 span{
 section.data_payment_card .card .cod{
     margin-right: 20px;
 }
+/*adress*/
+article.adress_choices{
+    margin-top: 0;
+}
+article.adress_choices .form_adress .adress_details .number{
+    width: 30%;
+    margin-right: 20px;
+}
+
+/* PURCHASES */
+.purchase{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 48vw;
+    position: absolute;
+}
+
+.data_purchase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: fixed;
+    right: 0;
+}
+
+.button_purchase{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices_purchase{
+    padding: 40px;
+    line-height: 35px;
+    border: 1px solid var(--color-first);
+}
+
+.sub-purchase{
+    border-bottom: 1px solid var(--color-first);
+}
+
+.button_purchase button{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--color-button);
+}
+
+
 
 
 
