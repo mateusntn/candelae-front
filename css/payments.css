@@ -14,7 +14,70 @@ h6{
 h6 span{
     font-weight: bold;
 }
+/* PAYMENT AND ADRESS*/
+.data{
+    width: 50vw;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+}
 
+.data input {
+    border: 3px solid var(--color-second);
+    width: 100%;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.data article{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 50px;
+}
+
+.data article h1{
+    text-align: center;
+    color: var(--color-third);
+    font-size: 30px;
+    font-weight: bold;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.choice a{
+    padding: 5px 0px;
+    width: 30%;
+    text-align: center;
+    color: var(--color-first);
+}
+
+.choice a:hover{
+    text-decoration: underline;
+}
+.choice a.credit_debit{
+    border-right: 1px solid var(--color-third);
+}
+.data_payment_card,
+.data_payment_boleto,
+.form_adress{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card,
+.adress_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
