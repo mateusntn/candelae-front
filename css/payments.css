@@ -78,6 +78,10 @@ h6 span{
     justify-content: space-between;
     align-items: center;
 }
+/*payment_card*/
+section.data_payment_card .card .cod{
+    margin-right: 20px;
+}
 
 
 
