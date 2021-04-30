@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h6{
+    margin: 5px;
+    position: absolute;
+}
+
+h6 span{
+    font-weight: bold;
+}
+
+
+
+
+
