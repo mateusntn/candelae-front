@@ -5,7 +5,6 @@ main {
     justify-content: space-evenly;
     padding: 50px 0;
     flex-wrap: wrap;
-    margin-bottom: 3%;
 }
 
 main h2 {
@@ -16,8 +15,12 @@ main h2 {
     text-align: center;
 }
 
-main form input {
+main form {
     width: 400px;
+}
+
+main form input {
+    width: 100%;
     height: 20px;
     margin: 7px 0;
     padding: 7px;
@@ -25,11 +28,10 @@ main form input {
     display: flex;
 }
 
-.login-button,
-.register-button {
+form button {
     padding: 7px 10px;
     margin: 20px 0;
-    width: 30%;
+    width: 150px;
     border: none;
     color: #fff;
     background-color: var(--color-first);
@@ -38,8 +40,7 @@ main form input {
     cursor: pointer;
 }
 
-.login-button:hover,
-.register-button:hover{
+form button:hover{
     background-color: var(--color-third);
     transition: 0.3s;
 }
@@ -60,5 +61,25 @@ main form input {
 }
 
 @media (max-width: 950px) {
-    .vertical-line{display: none;}
+    .vertical-line{
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vertical-bar {
+        display: none;
+    }
+
+    .contact {
+        margin-bottom: 50px;
+    }
+
+    .payment {
+        width: 100%;
+    }
 }
