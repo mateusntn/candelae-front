@@ -137,7 +137,49 @@ article.adress_choices .form_adress .adress_details .number{
     background-color: var(--color-button);
 }
 
+@media (max-width: 940px) {
+    .data_payment_card .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
+    section.data_payment_card .card .cod,
+    .valid{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    main{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .data{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .purchase{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .data_purchase{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
 
 
 
