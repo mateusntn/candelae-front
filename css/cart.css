@@ -70,7 +70,18 @@ main .path span {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.purchase .title {
+    margin-bottom: 20px;
+}
+
+.purchase .finish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    height: 100%;
 }
 
 .purchase .value {
@@ -88,6 +99,12 @@ main .path span {
     border-top: 1px solid black;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .purchase button {
     background-color: var(--color-button);
     color: #fff;
@@ -97,6 +114,7 @@ main .path span {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
+    margin-bottom: 20px;
 }
 
 .purchase a {
@@ -119,12 +137,11 @@ main .path span {
         width: 100%;
     }
     
-    .finish {
+    .purchase .finish {
         width: 100%;
-        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
         margin: 20px 0;
     }
 
@@ -143,5 +160,9 @@ main .path span {
 @media (max-width: 670px) {
     .value {
         margin-bottom: 20px;
+    }
+
+    main {
+        padding: 20px 0;
     }
 }
