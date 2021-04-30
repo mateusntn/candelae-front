@@ -28,7 +28,7 @@ main form input {
     display: flex;
 }
 
-form button {
+main form button {
     padding: 7px 10px;
     margin: 20px 0;
     width: 150px;
@@ -40,7 +40,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover{
+main form button:hover{
     background-color: var(--color-third);
     transition: 0.3s;
 }
