@@ -14,3 +14,13 @@ body {
     font-family: 'Anonymous Pro', monospace;
     background-color: var(--color-bg);
 }
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color-third);
+}
+
+input {
+    height: 28px;
+}
