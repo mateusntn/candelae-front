@@ -43,3 +43,93 @@ footer .vertical-bar{
     border: 0.5px solid var(--color-second);
 }
 
+
+
+@media (max-width: 768px){
+
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-bar {
+        display: none;
+    }
+
+
+
+    .contact {
+        margin-bottom: 50px;
+    }
+
+
+
+    .payment {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 600px){
+
+
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-bar {
+        display: none;
+    }
+
+
+
+    .contact {
+        margin-bottom: 50px;
+    }
+
+
+
+    .payment {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 300px){
+
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-bar {
+        display: none;
+    }
+
+
+
+    .contact {
+        margin-bottom: 50px;
+    }
+
+
+
+    .payment {
+        width: 100%;
+    }
+
+}
+
