@@ -45,6 +45,10 @@ main form button:hover{
     transition: 0.3s;
 }
 
+strong {
+    display: block;
+}
+
 .vertical-line {
     height: 450px;
     border-left: 1.5px solid var(--color-first);
@@ -61,25 +65,35 @@ main form button:hover{
 }
 
 @media (max-width: 950px) {
-    .vertical-line{
+    .vertical-line, .vertical-bar{
         display: none;
     }
-
+    main form{
+        width: 300px;    
+    }
+    main form input{
+        width: 260px;
+    }
+    main h2 {
+        font-size: 23px;
+    }
     footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
     }
-    .vertical-bar {
-        display: none;
-    }
-
     .contact {
         margin-bottom: 50px;
     }
-
     .payment {
         width: 100%;
     }
+    header nav a {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;       
+    }   
 }
