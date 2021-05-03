@@ -65,7 +65,7 @@ strong {
 }
 
 @media (max-width: 950px) {
-    .vertical-line, .vertical-bar{
+    .vertical-line {
         display: none;
     }
     main form{
@@ -77,23 +77,4 @@ strong {
     main h2 {
         font-size: 23px;
     }
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-    .contact {
-        margin-bottom: 50px;
-    }
-    .payment {
-        width: 100%;
-    }
-    header nav a {
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 20px;       
-    }   
 }
