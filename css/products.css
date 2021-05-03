@@ -182,38 +182,6 @@ main .price .cep #cep {
 
 
 
-@media (max-width: 950px) {
-
-    .vertical-line{
-        display: none;
-    }
-
-
-
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .vertical-bar {
-        display: none;
-    }
-
-
-
-    .contact {
-        margin-bottom: 50px;
-    }
-
-
-
-    .payment {
-        width: 100%;
-    }
-
-}
 
 @media (max-width: 768px){
 
@@ -255,29 +223,7 @@ main .price .cep #cep {
         width: 50%;
     }
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .vertical-bar {
-        display: none;
-    }
-
-
-
-    .contact {
-        margin-bottom: 50px;
-    }
-
-
-
-    .payment {
-        width: 100%;
-    }
-
+    
 }
 
 
@@ -317,32 +263,6 @@ main .price .cep #cep {
         
     }
 
-
-
-
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .vertical-bar {
-        display: none;
-    }
-
-
-
-    .contact {
-        margin-bottom: 50px;
-    }
-
-
-
-    .payment {
-        width: 100%;
-    }
-
 }
 
 
@@ -376,30 +296,5 @@ main .price .cep #cep {
         
     }
 
-
-
-
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .vertical-bar {
-        display: none;
-    }
-
-
-
-    .contact {
-        margin-bottom: 50px;
-    }
-
-
-
-    .payment {
-        width: 100%;
-    }
-
+    
 }
