@@ -1,0 +1,85 @@
+
+.current {
+
+    font-weight: bold;
+    text-decoration:underline;
+
+}
+
+.vertical-line {
+
+    height: 25px;
+    border: 0.5px solid var(--color-first);
+    margin: 0px 10px;
+
+}
+
+
+.links {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+.links a {
+   
+    color: var(--color-first);
+  
+}
+
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section {
+    width: 100%;
+}
+
+
+section img {
+
+    width: 300px;
+    margin: 0px 60px;
+}
+
+.Aromas {
+    display: flex;
+    width: 100%;    
+}
+
+.Aromas:nth-child(even) {
+    
+    flex-direction: row-reverse;
+    margin-top: 100px;
+
+}
+
+.Aromas h3 {
+
+    font-size: 25px;
+    color: var(--color-first);
+    
+
+
+}
+
+.Aromas:nth-child(even) h3 {
+
+    text-align: right;
+
+        
+}
+
+.berg p {
+
+    width: 450px;
+
+}
+
